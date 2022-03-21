@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import requests
 
 url = 'http://mercury.picoctf.net:45028/'
