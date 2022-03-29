@@ -1,3 +1,5 @@
+#!/bin/env python3
+
 enc = "A:4@r%uL`M-^M0c0AbcM-MFE0d_a3hgc3N"
 
 def rot47(s):
