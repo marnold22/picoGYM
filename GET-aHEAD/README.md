@@ -2,7 +2,7 @@
 
 ## FLAG: picoCTF{r3j3ct_th3_du4l1ty_775f2530}
 
-## STATUS: Complete 
+## STATUS: Complete
 
 Category: Web-Exploit
 
