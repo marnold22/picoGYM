@@ -2,6 +2,8 @@
 
 ## FLAG: picoCTF{abf2f7d5edf082028076bfd7a4cfe9a9}
 
+## STATUS: Complete
+
 Category: Cryptography
 
 Description: A one-time pad is unbreakable, but can you manage to recover the flag? (Wrap with picoCTF{}) nc mercury.picoctf.net 41934 otp.py
