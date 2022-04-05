@@ -2,6 +2,8 @@
 
 ## FLAG: picoCTF{1|\/|_4_p34|\|ut_502b984b}
 
+## STATUS: Complete
+
 Category: Reverse-Engineer
 
 Description: crackme-py
