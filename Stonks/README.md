@@ -2,6 +2,8 @@
 
 ## FLAG: picoCTF{I_l05t_4ll_my_m0n3y_1cf201a0}
 
+## STATUS: Complete
+
 Category: Binary-Exploit
 
 Description: I decided to try something noone else has before. I made a bot to automatically trade stonks for me using AI and machine learning. I wouldn't believe you if you told me it's unsecure! vuln.c nc mercury.picoctf.net 27912
