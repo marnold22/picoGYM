@@ -2,6 +2,8 @@
 
 ## FLAG: picoCTF{1n_7h3_|<3y_of_e584b363}
 
+## STATUS: Complete
+
 Category: Reverse-Engineering
 
 Description: keygenme-trial.py
