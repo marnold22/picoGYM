@@ -1,8 +1,8 @@
 # Speeds-and-feeds
 
-## FLAG: picoCTF{}
+## FLAG: picoCTF{num3r1cal_c0ntr0l_68a8fe29}
 
-## Status: Incomplete
+## Status: Complete
 
 Category: Reverse-Engineering
 
