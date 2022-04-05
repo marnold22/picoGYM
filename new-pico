@@ -4,4 +4,4 @@
 mkdir $1
 cd $1
 touch README.md
-$(echo -e "# $1\n\n## FLAG: picoCTF{}\n\nCategory: $2\n\nDescription: \n\nStatus: Incomplete" > README.md)
+$(echo -e "# $1\n\n## FLAG: picoCTF{}\n\n## Status: Incomplete\n\nCategory: $2\n\nDescription:" > README.md)
