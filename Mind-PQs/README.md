@@ -2,6 +2,8 @@
 
 ## FLAG: picoCTF{sma11_N_n0_g0od_73918962}
 
+## STATUS: Complete
+
 Category: Cryptography
 
 Description: In RSA, a small e value can be problematic, but what about N? Can you decrypt this? values
