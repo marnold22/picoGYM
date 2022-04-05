@@ -2,6 +2,8 @@
 
 ## FLAG: picoCTF{4p0110_1n_7h3_h0us3_192ee2db}
 
+## STATUS: Complete
+
 Category: general skills
 Description: Python scripts are invoked kind of like programs in the Terminal... Can you run this Python script using this password to get the flag?
 
