@@ -2,6 +2,8 @@
 
 ## FLAG: picoCTF{the_m3tadata_1s_modified}
 
+## STATUS: Complete
+
 Category: forensics
 Description: Files can always be changed in a secret way. Can you find the flag? cat.jpg
 
