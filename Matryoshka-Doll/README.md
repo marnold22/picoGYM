@@ -2,6 +2,8 @@
 
 ## FLAG: picoCTF{4cf7ac000c3fb0fa96fb92722ffb2a32}
 
+## STATUS: Complete
+
 Category: Forensics
 
 Description: Matryoshka dolls are a set of wooden dolls of decreasing size placed one inside another. What's the final one? Image: this
