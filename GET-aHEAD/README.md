@@ -2,6 +2,8 @@
 
 ## FLAG: picoCTF{r3j3ct_th3_du4l1ty_775f2530}
 
+## STATUS: Complete
+
 Category: Web-Exploit
 
 Description: Find the flag being held on this server to get ahead of the competition <http://mercury.picoctf.net:45028/>
