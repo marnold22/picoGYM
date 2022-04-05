@@ -2,6 +2,8 @@
 
 ## FLAG: picoCTF{qu1t3_a_v13w_2020}
 
+## STATUS: Complete
+
 Category: Forensics
 
 Description: We found this file. Recover the flag.
