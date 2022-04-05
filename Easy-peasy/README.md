@@ -2,7 +2,7 @@
 
 ## FLAG: picoCTF{abf2f7d5edf082028076bfd7a4cfe9a9}
 
-## STATUS: Complete
+## STATUS: Complete 
 
 Category: Cryptography
 
