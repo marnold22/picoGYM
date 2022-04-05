@@ -2,6 +2,8 @@
 
 ## FLAG: picoCTF{b1scu1ts_4nd_gr4vy_616f7182}
 
+## STATUS: Complete
+
 Category: general skills
 Description: Can you invoke help flags for a tool or binary? This program has extraordinarily helpful information...
 
