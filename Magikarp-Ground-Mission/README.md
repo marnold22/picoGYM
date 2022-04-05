@@ -2,7 +2,7 @@
 
 ## FLAG: picoCTF{xxsh_0ut_0f_\/\/4t3r_3ca613a1}
 
-## STATUS: Complete
+## STATUS: Complete 
 
 Category: General-Skills
 
