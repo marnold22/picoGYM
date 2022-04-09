@@ -2,7 +2,7 @@
 
 ## FLAG: picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_35844447}
 
-## Status: Incomplete
+## Status: Complete
 
 Category: Web-Exploit
 
