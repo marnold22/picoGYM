@@ -1,0 +1,32 @@
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+3202          0xC82           gzip compressed data, fastest compression, from Unix, last modified: 1970-01-01 00:00:00 (null date)
+4856          0x12F8          xz compressed data
+188254        0x2DF5E         PC bitmap, Windows 3.x format,, 605 x 454 x 24
+1289958       0x13AEE6        PC bitmap, Windows 3.x format,, 4032 x 3024 x 24
+5051098       0x4D12DA        Broadcom header, number of sections: 38797312,
+8690459       0x849B1B        rzip compressed data - version 87.76 (1415270489 bytes)
+9466123       0x90710B        LANCOM OEM file
+12246567      0xBADE27        LANCOM firmware header, model: "QXKRYLQXKQXKQWKOUJNTIKQFIODIODJPELRGMSHMSHMSHLRGJPEHNCIODNTIRXMRXMZbWgqejuinznkwkiuiqxmlmcOPFCD:@@6?>4@?5A>5B?6A>5?<3>;2>;2>;2>;", firmware version: "JPWJ", RC74, build 87 ("OVIPWJQX")
+12262610      0xBB1CD2        LANCOM firmware header, model: "PWJPWJQXKRYLRYLRYLPWJPVJOUJNTIMSHLRGJPEJPEJPELRGLR", firmware version: "JPWJ", RC72, build 87 ("MTGNUHPW")
+12311131      0xBBDA5B        LANCOM firmware header, model: "OVJPXMPXMPXMPXMPXMOWLOWLPXMOWLOWLOWLPXMOWLOWLQYNT\Q[eY]j^arefwjbsf`maWaU=D9/3(8:0:;1AB8=>4>>4", firmware version: "KPWJ", RC73, build 88 ("NUHOVIQX")
+12343591      0xBC5927        LANCOM firmware header, model: "X`UU]RT\QV^SW_TU]RS[PT\QV^SV^SV^S[eYal`eqeduhdxkfzmi}pj|om{odoc`h]T[PAG<:?4:>39:0;:0=<2=<2=<2<90;8/<90?<3A>5@=4?<3?<3>;2=:1>;2?<", firmware version: "TYaV", RC77, build 95 ("PWJRYMT\")
+14834600      0xE25BA8        Microsoft executable, MS-DOS
+15038870      0xE57996        Broadcom header, number of sections: 324294729,
+18292756      0x1172014       StuffIt Deluxe Segment (data): fVefVefVefVdeUcdT`aQ_`P``Ra`R`_Q`_QbaScbTebVfbWb^Sa]R_[P[VMTOFQLCTND
+18988201      0x121BCA9       StuffIt Deluxe Segment (data): fVdeUbcS`aQ_`P_`P``PaaQ``P``P__O__O^^N^^N^^N^^N\\L[[KYYI\ZK]ZK\YJ^[L\YJZWHZWHZWHZVG[VG]XI\WHZUFWRCUPAUPAVQBWRCYTEYTEYTEXSDXSDXSD
+19178156      0x124A2AC       rzip compressed data - version 89.67 (1263815251 bytes)
+19343936      0x1272A40       StuffIt Deluxe Segment (data): fVcdTbdT`cS^aQ\_OSWGPVEJP?KQ@V\KW]LX^M`fUjn^lo_XZJBC3JK;QQAQO@TQBTPAUPASN?RM>UPATO@TO@UPATO@TO@TO@UPAVQBUPAUPAUPAVQBUPATPARO@SPA
+19532037      0x12A0905       HPACK archive data
+19780793      0x12DD4B9       StuffIt Deluxe Segment (data): fVgiYfiYcfVbeUadT_bR\_O\_O_bRadT`cS^aQ\_OZ]M]_O`aQ_`P_`P^_O^^N^^N^^N__O``P`^OebSb_Pc`Qb`Q__O^_O`aQbcScdTcdT^_O[\LUVFTUEWWGXYIWZJ
+20607295      0x13A713F       StuffIt Deluxe Segment (data): fV`aQYZJTUEWXHYZJUUESSCWWGYWHZWH\YJa^OeaRa\MUO@[TE]TF[RDXOAaXJ[RDRI;SJ<UL>UL>UL>VM?XOAXOAWN@TK>SJ=UL?WNAUL?RI<QH;TK>VM@WNATK>RI<
+20704295      0x13BEC27       StuffIt Deluxe Segment (data): fV_`PhiYacS[^NUYIW]Lem\[eTckZw}lyzjjgXRM>LE6NE7UL>UL>VM?YPBWN@VM?VM?WN@WN@VM?RI;PG9QH:SJ<TK=TK=UL>WN@UL>TK=UL>VM?VM?UL>TK=SJ<TK=
+21206404      0x1439584       StuffIt Deluxe Segment (data): fVop`vwguvfpqamn^kl\ttdjgX_ZKZTE^WHb[Lb[L`YJ^WH`YJb[Ld]Nc\Mb[Lb[L`YJ_XIaZKc\Mf_PjcTe^Od]Nf_PaZKc]N^YJXSDYTE\WH\WHSO@TQBb_PspaecT
+21561607      0x1490107       StuffIt Deluxe Segment (data): fVhiYmm]kkZ^^L[ZHb`NdbP][I][I[YGWUCcaOmkYhfTecQgeSdbP
+21932765      0x14EAADD       rzip compressed data - version 90.73 (1432243550 bytes)
+22457685      0x156AD55       VMware4 disk image
+34625814      0x2105916       StuffIt Deluxe Segment (data): fdbcaZ[YOPNPQO]^\`a_WXV[\Zefddec^_]OPNMNLXYW`a_mnlmnl\][YZXRSQCDB?@>DEC@A?BCADECCDB:;9897BCACDBEFDFGE675'(&./-<=;;:9;98<:9A?>B@?
+50157110      0x2FD5636       PC bitmap, Windows 3.x format,, 807 x 605 x 24
+51915447      0x3182AB7       StuffIt Deluxe Segment (data): fV_aQ[\McdT]^KON;[WFWR@JC1RJ9TM<VN=\SBbYGSJ9YR@WP>UN<
+
