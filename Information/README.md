@@ -5,7 +5,11 @@
 ## STATUS: Complete
 
 Category: forensics
+
 Description: Files can always be changed in a secret way. Can you find the flag? cat.jpg
+
+Hint-1: Look at the details of the file
+Hint-2: Make sure to submit the flag as picoCTF{XXXXX}
 
 > wget "https://mercury.picoctf.net/static/d1375e383810d8d957c04eef9e345732/cat.jpg"
 > strings cat.jpg > cat-strings.txt

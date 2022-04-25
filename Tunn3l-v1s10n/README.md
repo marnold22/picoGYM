@@ -8,6 +8,8 @@ Category: Forensics
 
 Description: We found this file. Recover the flag.
 
+Hint-1: Weird that it won't display right...
+
 > wget "https://mercury.picoctf.net/static/01be2b38ba97802285a451b94505ea75/tunn3l_v1s10n"
 > strings tunn3l_v1s10n > strings
 > xxd tunn3l_v1s10n > hexdump-tunnel

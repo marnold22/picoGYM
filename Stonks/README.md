@@ -8,6 +8,8 @@ Category: Binary-Exploit
 
 Description: I decided to try something noone else has before. I made a bot to automatically trade stonks for me using AI and machine learning. I wouldn't believe you if you told me it's unsecure! vuln.c nc mercury.picoctf.net 27912
 
+Hint-1: Okay, maybe I'd believe you if you find my API key.
+
 > wget "https://mercury.picoctf.net/static/17ba7f9351aca192c45833c658742fe5/vuln.c"
 
 pass the program %p to get a valid pointer - so no sanitization of user input

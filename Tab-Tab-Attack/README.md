@@ -8,6 +8,8 @@ Category: General-Skills
 
 Description: Using tabcomplete in the Terminal will add years to your life, esp. when dealing with long rambling directory structures and filenames: Addadshashanammu.zip
 
+Hint-1: After `unzip`ing, this problem can be solved with 11 button-presses...(mostly Tab)...
+
 > wget "https://mercury.picoctf.net/static/72712e82413e78cc8aa8d553ffea42b0/Addadshashanammu.zip"
 > cd "/Addadshashanammu/Almurbalarammi/Ashalmimilkala/Assurnabitashpi/Maelkashishi/Onnissiralis/Ularradallaku"
 > strings fang-of-haynekhtnamet

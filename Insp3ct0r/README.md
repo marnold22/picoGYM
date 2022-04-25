@@ -8,6 +8,9 @@ Category: Web-Exploit
 
 Description: Kishor Balan tipped us off that the following code may need inspection: <https://jupiter.challenges.picoctf.org/problem/44924/> (link) or <http://jupiter.challenges.picoctf.org:44924>
 
+Hint-1: How do you inspect web code on a browser?
+Hint-2: There's 3 parts
+
 > wget "https://jupiter.challenges.picoctf.org/problem/44924/"
 
 After inspecting the html code we can see there is also a static css file `mycss.css` and a static js file `myjs.js` so we will pull these down too

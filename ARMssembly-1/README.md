@@ -8,6 +8,8 @@ Category: Reverse-Engineering
 
 Description: For what argument does this program print `win` with variables 58, 2 and 3? File: chall_1.S Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 32 bits. ex. 5614267 would be picoCTF{0055aabb})
 
+Hint-1: Shifts
+
 > wget "https://mercury.picoctf.net/static/1c8d50e39cf00d144e6a72119f68c16c/chall_1.S"
 
 ## THIS REQUIRES HELP BUT CONCEPTS ARE STILL TESTED IN APE.PY FILE

@@ -8,6 +8,8 @@ Category: Web-Exploit
 
 Description: There is some interesting information hidden around this site <http://mercury.picoctf.net:5080/> Can you find it?
 
+Hint-1: You should have enough hints to find the files, don't run a brute forcer.
+
 > wget "http://mercury.picoctf.net:5080/"
 > wget "http://mercury.picoctf.net:5080/mycss.css"
 > wget "http://mercury.picoctf.net:5080/myjs.js"

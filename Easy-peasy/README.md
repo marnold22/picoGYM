@@ -8,6 +8,8 @@ Category: Cryptography
 
 Description: A one-time pad is unbreakable, but can you manage to recover the flag? (Wrap with picoCTF{}) nc mercury.picoctf.net 41934 otp.py
 
+Hint-1: Maybe there's a way to make this a 2x pad.
+
 > wget "https://mercury.picoctf.net/static/1f148e5cdf8bd2c9f752b14d46a3f2f2/otp.py"
 > nc mercury.picoctf.net 41934
 Response: This is the encrypted flag! 0345376e1e5406691d5c076c4050046e4000036a1a005c6b1904531d3941055d

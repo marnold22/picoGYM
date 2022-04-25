@@ -8,6 +8,9 @@ Category: Forensics
 
 Description: Matryoshka dolls are a set of wooden dolls of decreasing size placed one inside another. What's the final one? Image: this
 
+Hint-1: Wait, you can hide files inside files? But how do you find them?
+Hint-2: Make sure to submit the flag as picoCTF{XXXXX}
+
 > wget "https://mercury.picoctf.net/static/2978e1270538613cd8181c7b0dabe9bd/dolls.jpg"
 > file dolls.jpg
 > strings dolls.jpg > strings.txt

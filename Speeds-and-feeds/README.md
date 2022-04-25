@@ -8,6 +8,8 @@ Category: Reverse-Engineering
 
 Description: There is something on my shop network running at nc mercury.picoctf.net 20301, but I can't tell what it is. Can you?
 
+Hint-1: What language does a CNC machine use?
+
 > nc mercury.picoctf.net 20301
 > nc mercury.picoctf.net 20301 > gcode.g
 

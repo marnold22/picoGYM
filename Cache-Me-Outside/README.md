@@ -8,6 +8,8 @@ Category: Binary-Exploit
 
 Description: While being super relevant with my meme references, I wrote a program to see how much you understand heap allocations. nc mercury.picoctf.net 10097 heapedit Makefile libc.so.6
 
+Hint-1: It may be helpful to read a little bit on GLIBC's tcache.
+
 > wget "https://mercury.picoctf.net/static/97a073d6009c8cbd05d03b91ac3a620b/heapedit"
 > wget "https://mercury.picoctf.net/static/97a073d6009c8cbd05d03b91ac3a620b/Makefile"
 > wget "https://mercury.picoctf.net/static/97a073d6009c8cbd05d03b91ac3a620b/libc.so.6"

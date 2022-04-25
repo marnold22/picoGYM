@@ -8,6 +8,12 @@ Category: Cryptography
 
 Description: What happens if you have a small exponent? There is a twist though, we padded the plaintext so that (M ** e) is just barely larger than N. Let's decrypt this: ciphertext
 
+Hint-1: RSA tutorial <https://en.wikipedia.org/wiki/RSA_(cryptosystem)>
+Hint-2: How could having too small of an e affect the security of this key?
+Hint-3: Make sure you don't lose precision, the numbers are pretty big (besides the e value)
+Hint-4: You shouldn't have to make too many guesses
+Hint-5: pico is in the flag, but not at the beginning
+
 > wget "https://mercury.picoctf.net/static/71f49c1459c00de5335d5dddc86c8841/ciphertext"
 
 Attempted Wiener's Attack using python: wiener-attack.py

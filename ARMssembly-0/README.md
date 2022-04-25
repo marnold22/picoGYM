@@ -8,6 +8,8 @@ Category: Reverse-Engineering
 
 Description: What integer does this program print with arguments `3854998744` and `915131509`? File: chall.S Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 32 bits. ex. 5614267 would be picoCTF{0055aabb})
 
+Hint-1: Simple compare
+
 > wget "https://mercury.picoctf.net/static/b3b17204c7ce77f184a397c4fae4a35b/chall.S"
 
 ## COMPILE TESTS

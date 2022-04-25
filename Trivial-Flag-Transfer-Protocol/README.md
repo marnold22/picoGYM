@@ -8,6 +8,8 @@ Category: Forensics
 
 Description: Figure out how they moved the flag.
 
+Hint-1: What are some other ways to hide data?
+
 > wget "https://mercury.picoctf.net/static/e4836d9bcc740d457f4331d68129a0bc/tftp.pcapng"
 
 Run Wireshark:

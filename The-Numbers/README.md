@@ -8,6 +8,8 @@ Category: Cryptography
 
 Description: The numbers... what do they mean?
 
+Hint-1: The flag is in the format PICOCTF{}
+
 > wget "https://jupiter.challenges.picoctf.org/static/f209a32253affb6f547a585649ba4fda/the_numbers.png"
 > eog the_numbers.png
 

@@ -8,6 +8,8 @@ Category: Cryptography
 
 Description: What if d is too small? Connect with nc mercury.picoctf.net 58978
 
+Hint-1: What do you think about my pet? dachshund.jpg <https://mercury.picoctf.net/static/ab42077a6749ec02a166048fe008677c/dachshund.jpg>
+
 > nc mercury.picoctf.net 58978
 
 Return:
