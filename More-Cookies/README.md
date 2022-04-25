@@ -1,8 +1,8 @@
 # More-Cookies
 
-## FLAG: picoCTF{}
+## FLAG: picoCTF{cO0ki3s_yum_2d20020d}
 
-## Status: Incomplete
+## Status: Complete
 
 Category: Web-Exploit
 
@@ -22,3 +22,5 @@ admin1
 ## NEED HELP - CREDIT abbas <https://ctftime.org/writeup/27021>
 
 This particular challenge uses a cbc bitflip
+
+Ran flag.py and set range to 50
