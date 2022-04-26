@@ -24,7 +24,9 @@ def main():
     r = conn()
 
     # good luck pwning :)
-
+    # r.sendline(b'A'*135) # 135 works, 136 causes overflow
+    
+    r.sendline(b'A' * 112)
     r.interactive()
 
 

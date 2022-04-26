@@ -23,3 +23,28 @@ Hint-1: PWNTools has a lot of useful features for getting offsets.
 
 2. Run ./vuln_patched
     > insert "AAAAAAA..." until segmentation error
+
+3. Use Ghidra to decompile and analyze code
+    > main() -> copied to decomp.c
+    > doStuff() -> copied to decomp.c
+        > doStuff() makes space for 112 characters but only "converts" 100 of those characters
+    > puts() function is used in both main() and doStuff() which is exploitable
+
+4. Used pwninit solve.py to send data
+    > r.sendline(b'A' * 136)
+      - 135 A's works but overflows at 136
+    > r.sendline(b'A' x 112)
+    **MAYBE USES ROP ATTACK?**
+
+5. python3 POC
+    > len("AaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAa")
+    - returns 112
+    > len("AaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAa")
+    - returns 100
+
+6. Need to craft a ROP chain
+   1. Need to find the EIP (Extended Instruction Pointer)
+   2. Run GNU debugger (gdb) and put breackpoint on main()
+      > gdb ./vuln_patched
+      > b main
+      > pattern create 136
