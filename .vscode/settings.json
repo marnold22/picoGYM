@@ -1,0 +1,4 @@
+{
+    "python.autoComplete.extraPaths": ["/home/marnold/.local/lib/python3.10/site-packages"],
+    "python.analysis.extraPaths": ["/home/marnold/.local/lib/python3.10/site-packages"]
+}
