@@ -3,8 +3,6 @@ import string
 
 alphabet = string.ascii_uppercase
 
-print(alphabet)
-
 enc_flag = ['U','F','J','K','X','Q','Z','Q','U','N','B']
 key = ['S','O','L','V','E','C','R','Y','P','T','O']
 diff = []
@@ -21,10 +19,9 @@ diff.append((ord(enc_flag[8]) - ord(key[8]))%26)
 diff.append((ord(enc_flag[9]) - ord(key[9]))%26)
 diff.append((ord(enc_flag[10]) - ord(key[10]))%26)
 
-print(diff)
-
 flag = []
 for val in diff:
     flag.append(alphabet[val])
 
-print("".join(flag))
+flag_val = "".join(flag)
+print(f"picoCTF{{{flag_val}}}")
