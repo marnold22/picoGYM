@@ -1,8 +1,8 @@
 # Basic-Mod1
 
-## FLAG: picoCTF{}
+## FLAG: picoCTF{R0UND_N_R0UND_B6B25531}
 
-## Status: Incomplete
+## Status: Complete
 
 Category: Cryptography
 
@@ -13,4 +13,4 @@ Wrap your decrypted message in the picoCTF flag format (i.e. picoCTF{decrypted_m
 
 1. > wget <https://artifacts.picoctf.net/c/394/message.txt>
 2. Create python script to perform mod
-   1. > touch mod1.py
+3. Run python script to decode message
