@@ -1,8 +1,8 @@
 # Basic-mod2
 
-## FLAG: picoCTF{}
+## FLAG: picoCTF{1NV3R53LY_H4RD_8A05D939}
 
-## Status: Incomplete
+## Status: Complete
 
 Category: Cryptography
 
@@ -13,4 +13,6 @@ Wrap your decrypted message in the picoCTF flag format (i.e. picoCTF{decrypted_m
 
 ## STEPS
 
-1. > wget <https://artifacts.picoctf.net/c/501/message.txt>
+1. wget <https://artifacts.picoctf.net/c/501/message.txt>
+2. Create script to decode (similar to Basic-Mod1)
+3. Run script to decode and get flag
