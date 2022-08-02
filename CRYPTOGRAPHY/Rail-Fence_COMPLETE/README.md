@@ -2,7 +2,7 @@
 
 ## FLAG: picoCTF{WH3R3_D035_7H3_F3NC3_8361N_4ND_3ND_D00AFDD3}
 
-## Status: Incomplete
+## Status: Complete
 
 Category: Cryptography
 
@@ -11,14 +11,17 @@ Description: A type of transposition cipher is the rail fence cipher, which is d
 ## SETUP / UNDERSTANDING
 
 ENCODING
+
 1. This particular cipher uses a Rail-Fence with which looks like the following (credit wikipedia)
 2. Using the message example of: `WE ARE DISCOVERED RUN AT ONCE`
 3. We can spread it over the 3 rails and get the following
+
     ```text
         W . . . E . . . C . . . R . . . U . . . O . . . 
         . E . R . D . S . O . E . E . R . N . T . N . E 
         . . A . . . I . . . V . . . D . . . A . . . C . 
-    ```  
+    ```
+
 4. The RAILS will look like this
     1. ie: RAIL1: `WECRUO`
     2. ie: RAIL2: `ERDSOEERNTNE`
@@ -47,7 +50,6 @@ ENCODING
    2. Where x+1 = number of diagonals in decrypted rail
    3. Where y = number of empty spaces in the last diagonal
 
-
 ## STEPS
 
 1. wget <https://artifacts.picoctf.net/c/274/message.txt>
@@ -59,9 +61,21 @@ ENCODING
 3. MATH PART
    1. N = 4
    2. L = 56 so 2(N-1) is not a multple of L meaining we need to use padding
+   3. Solve for x & y (plug in vlaues for N = 4 & L = 56)
+      1. Let x = {1, 2, 3, ... Z where 4+3Z >= 56}
+      2. $ x = 18 -> {56 \over 58}$
+      $$ 1 = {L+y \over N + ((N-1) * x)} $$
 
+      $$ 1 = {56+y \over 4 + ((4-1) * 18)} $$
 
+      $$ 1 = {56+y \over 58} $$
 
+      $$ y = {2} $$
+   4. Therefore
+         1. N = 4 Rails
+         2. L = 56 Characters
+         3. y = 2 empty characters (as padding) at the end
+         4. x = 18 (18+1) Total diagonals
 
 4. Run through online decoder <https://cryptii.com/pipes/rail-fence-cipher>
    1. 4 Rails, Maintain punctuation & Spaces
